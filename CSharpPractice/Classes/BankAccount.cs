@@ -15,7 +15,7 @@ namespace CSharpPractice.Classes
                     return balance;
                 return 1000000;
             }
-            set
+            private set
             {
                 if (value > 0)
                     balance = value;
